@@ -23,6 +23,9 @@ public class MoleController : MonoBehaviour
     private float movementSpeed = 10f;
 
     [SerializeField]
+    private float slideSpeed = 5f;
+
+    [SerializeField]
     private float jumpForce = 10f;
 
     [SerializeField]
@@ -31,6 +34,10 @@ public class MoleController : MonoBehaviour
     private bool isGrounded;
 
     private float gravity = -9.81f;
+
+    private bool isSlippery;
+
+    private bool isFacingLeft;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,18 +48,23 @@ public class MoleController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementForce = 0;
-        if (Input.GetKey(walkLeft))
-        {
-            movementForce += -movementSpeed;
-        }
-        else if (Input.GetKey(walkRight))
-        {
-            movementForce += movementSpeed;
-        }
-        else
-        {
+        if (!isSlippery)
+        { 
             movementForce = 0;
+            if (Input.GetKey(walkLeft))
+            {
+                movementForce += -movementSpeed;
+                isFacingLeft = true;
+            }
+            else if (Input.GetKey(walkRight))
+            {
+                movementForce += movementSpeed;
+                isFacingLeft = false;
+            }
+            else
+            {
+                movementForce = 0;
+            }
         }
 
         rigidbody.linearVelocity = new Vector2(movementForce,rigidbody.linearVelocityY);
@@ -65,17 +77,37 @@ public class MoleController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Slippery-Ground"))
         {
             isGrounded = true;
         }
+        
+        if (collision.gameObject.CompareTag("Slippery-Ground"))
+        {
+            isSlippery = true;
+
+            if (isFacingLeft)
+            {
+                movementForce += -slideSpeed;
+            }
+            else
+            {
+                movementForce += slideSpeed;
+            }
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Slippery-Ground"))
         {
             isGrounded = false;
+        }
+
+        if (collision.gameObject.CompareTag("Slippery-Ground"))
+        {
+            isSlippery = false;
         }
     }
 }
