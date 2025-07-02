@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 991995c5e4eb35a41b8f39950a04e10a
+guid: 37b7c71cb1b55d74fa2d797a4e79a041
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4774733485730237468
-    second: viscosity title_0
+      213: 1374742051037312497
+    second: QUIT_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: viscosity title_0
+      name: QUIT_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 360
-        height: 57
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1c0d12cec2434240800000000000000
-      internalID: 4774733485730237468
+      spriteID: 1f5fed99c90141310800000000000000
+      internalID: 1374742051037312497
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      viscosity title_0: 4774733485730237468
+      QUIT_0: 1374742051037312497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

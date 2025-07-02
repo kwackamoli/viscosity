@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 991995c5e4eb35a41b8f39950a04e10a
+guid: 5a7c8ba331061444f8c202bd95a90b4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4774733485730237468
-    second: viscosity title_0
+      213: 6972314462416958628
+    second: MarvynMoleDuckyAHHHH_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: viscosity title_0
+      name: MarvynMoleDuckyAHHHH_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 360
-        height: 57
+        width: 1152
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1c0d12cec2434240800000000000000
-      internalID: 4774733485730237468
+      spriteID: 4a47eaa0013a2c060800000000000000
+      internalID: 6972314462416958628
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      viscosity title_0: 4774733485730237468
+      MarvynMoleDuckyAHHHH_0: 6972314462416958628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
