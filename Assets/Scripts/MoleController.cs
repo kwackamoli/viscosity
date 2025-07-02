@@ -54,7 +54,7 @@ public class MoleController : MonoBehaviour
 
         rigidbody.linearVelocity = new Vector2(movementForce,rigidbody.linearVelocityY);
 
-        if (Input.GetKey(jumpKey1) || Input.GetKey(jumpKey2)  && isGrounded) 
+        if (Input.GetKey(jumpKey1) && isGrounded || Input.GetKey(jumpKey2)  && isGrounded) 
         {
             rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocityX, jumpForce);
         }
