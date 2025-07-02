@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 1ea9dcc61be870c42933cf0684669322
+guid: 79aef12577a4eb04d81d1b98650f2fd6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6522616271996281966
-    second: MarvynMoleDuckyAHHHH-removebg-preview_0
-  - first:
-      213: -6503485920364071993
-    second: MarvynMoleDuckyAHHHH-removebg-preview_1
-  - first:
-      213: -6771266422023802792
-    second: MarvynMoleDuckyAHHHH-removebg-preview_2
-  - first:
-      213: -7643351582935982211
-    second: MarvynMoleDuckyAHHHH-removebg-preview_3
-  - first:
-      213: 1545087958333280547
-    second: MarvynMoleDuckyAHHHH-removebg-preview_4
+      213: 8287873616420496286
+    second: clouds_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MarvynMoleDuckyAHHHH-removebg-preview_0
+      name: clouds_0
       rect:
         serializedVersion: 2
-        x: 388
-        y: 295
-        width: 22
-        height: 42
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,96 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e64658ae0fcf48a50800000000000000
-      internalID: 6522616271996281966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarvynMoleDuckyAHHHH-removebg-preview_1
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 296
-        width: 22
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c3f1fa230afeb5a0800000000000000
-      internalID: -6503485920364071993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarvynMoleDuckyAHHHH-removebg-preview_2
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 108
-        width: 320
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 850bdbb9011a702a0800000000000000
-      internalID: -6771266422023802792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarvynMoleDuckyAHHHH-removebg-preview_3
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 276
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7f5ea54b3c5de590800000000000000
-      internalID: -7643351582935982211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MarvynMoleDuckyAHHHH-removebg-preview_4
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 277
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3215037df41417510800000000000000
-      internalID: 1545087958333280547
+      spriteID: e936312a421740370800000000000000
+      internalID: 8287873616420496286
       vertices: []
       indices: 
       edges: []
@@ -248,11 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MarvynMoleDuckyAHHHH-removebg-preview_0: 6522616271996281966
-      MarvynMoleDuckyAHHHH-removebg-preview_1: -6503485920364071993
-      MarvynMoleDuckyAHHHH-removebg-preview_2: -6771266422023802792
-      MarvynMoleDuckyAHHHH-removebg-preview_3: -7643351582935982211
-      MarvynMoleDuckyAHHHH-removebg-preview_4: 1545087958333280547
+      clouds_0: 8287873616420496286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
