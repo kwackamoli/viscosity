@@ -4,3 +4,5 @@
 #008712 green for when buttons are clicked
 #39F8E5 blue goop 
 #89D1EA blue goop shadowing
+#8A5B41 ground main 
+#452E21 ground shadowing
