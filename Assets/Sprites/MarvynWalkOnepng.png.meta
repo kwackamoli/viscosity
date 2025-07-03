@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 99e03b7b74b73464bb5887e45d163f1f
+guid: 26e9205c2ec3c1a4fa4288bc873501e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 373891881111268426
-    second: MarvynMoleJump_0
+      213: 5155094633628352108
+    second: MarvynWalkOnepng_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MarvynMoleJump_0
+      name: MarvynWalkOnepng_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4c2a065fa4503500800000000000000
-      internalID: 373891881111268426
+      spriteID: c6eb0f4a1439a8740800000000000000
+      internalID: 5155094633628352108
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MarvynMoleJump_0: 373891881111268426
+      MarvynWalkOnepng_0: 5155094633628352108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
