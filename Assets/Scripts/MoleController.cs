@@ -36,8 +36,6 @@ public class MoleController : MonoBehaviour
     [SerializeField]
     private SpriteRenderer moleSprite;
     
-    private bool isGrounded;
-
     private bool isSlippery;
 
     private bool isSticky;
