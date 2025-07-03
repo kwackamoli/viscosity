@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 2aff3204bf9590e41be80f2ced6e9136
+guid: b434c701f75d7ca4eb850e72f9c98f09
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1423124034866029651
-    second: MarvynMole_0
+      213: -73567411476074080
+    second: LevCircle_0
+  - first:
+      213: 5797390237426038265
+    second: LevCircle_1
+  - first:
+      213: -1915161301876754048
+    second: LevCircle_2
+  - first:
+      213: -5293836854550634545
+    second: LevCircle_3
+  - first:
+      213: 1837120110710964770
+    second: LevCircle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MarvynMole_0
+      name: LevCircle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1152
-        height: 648
+        x: 135
+        y: 143
+        width: 17
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dab5d76fa3c004ce0800000000000000
-      internalID: -1423124034866029651
+      spriteID: 0a17ceb34d2aafef0800000000000000
+      internalID: -73567411476074080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevCircle_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 143
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5b81e74b7747050800000000000000
+      internalID: 5797390237426038265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevCircle_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 143
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089bf0261fafb65e0800000000000000
+      internalID: -1915161301876754048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevCircle_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf53a1cd638886b0800000000000000
+      internalID: -5293836854550634545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevCircle_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 78
+        width: 78
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22247a8d103ce7910800000000000000
+      internalID: 1837120110710964770
       vertices: []
       indices: 
       edges: []
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MarvynMole_0: -1423124034866029651
+      LevCircle_0: -73567411476074080
+      LevCircle_1: 5797390237426038265
+      LevCircle_2: -1915161301876754048
+      LevCircle_3: -5293836854550634545
+      LevCircle_4: 1837120110710964770
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
