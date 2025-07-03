@@ -87,6 +87,11 @@ public class MoleController : MonoBehaviour
         {
             rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocityX, jumpForce);
         }
+
+        if (Input.GetKeyDown(jumpKey1) && isSticky || Input.GetKeyDown(jumpKey2) && isSticky)
+        {
+            rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocityX, jumpForce);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -104,7 +109,6 @@ public class MoleController : MonoBehaviour
         if (collision.gameObject.CompareTag("Sticky-Wall"))
         {
             isSticky = true;
-            isGrounded = true;
         }
 
         if (collision.gameObject.CompareTag("Slippery-Ground"))
@@ -138,7 +142,6 @@ public class MoleController : MonoBehaviour
         if (collision.gameObject.CompareTag("Sticky-Wall"))
         {
             isSticky = false;
-            isGrounded = false;
         }
     }
 
