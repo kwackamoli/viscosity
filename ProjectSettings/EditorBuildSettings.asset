@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: e4302b76c581a9042994df76131623ec
+  - enabled: 1
+    path: Assets/Scenes/Bulgaria Has Falled.unity
+    guid: 1bb216bcc5a12ee49a39992a375e0e49
+  - enabled: 1
+    path: Assets/Scenes/level 0 Tutorial.unity
+    guid: 1b3ef9247ed1d3d41b2d6d5e06e37e55
+  - enabled: 1
+    path: Assets/Scenes/level 1 Bulgaria.unity
+    guid: 91abbab120562904ba031362548fd449
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:

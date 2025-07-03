@@ -1,7 +1,9 @@
 using System.Collections;
+using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class IntroSequence : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class IntroSequence : MonoBehaviour
     [SerializeField] TextMeshProUGUI awesomeText;
     [SerializeField] Sprite[] introImages;
     [SerializeField] string[] introText;
+    [SerializeField] string level0scene;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -43,6 +46,6 @@ public class IntroSequence : MonoBehaviour
                 yield return null;
             }
         }
-        yield return null;
+        SceneManager.LoadScene(level0scene);
     }
 }
