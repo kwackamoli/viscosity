@@ -294,5 +294,5 @@ MonoBehaviour:
   movementSpeed: 7
   slideSpeed: 5
   jumpForce: 10
-  groundTrigger: {fileID: 277692648936672082}
-  Spriteremder: {fileID: 4845939241394249214}
+  groundTrigger: {fileID: 0}
+  moleSprite: {fileID: 4845939241394249214}
