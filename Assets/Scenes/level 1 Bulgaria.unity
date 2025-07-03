@@ -842,6 +842,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 152373796734633177, guid: 131874994b840504ea6361c4193c90b0, type: 3}
+      propertyPath: goopSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 706767762651541456, guid: 131874994b840504ea6361c4193c90b0, type: 3}
       propertyPath: m_Name
       value: rising good
@@ -852,7 +856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3795373952673729262, guid: 131874994b840504ea6361c4193c90b0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.19
+      value: -15.09
       objectReference: {fileID: 0}
     - target: {fileID: 3795373952673729262, guid: 131874994b840504ea6361c4193c90b0, type: 3}
       propertyPath: m_LocalPosition.z
