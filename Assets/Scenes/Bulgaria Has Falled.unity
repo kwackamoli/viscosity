@@ -683,6 +683,7 @@ MonoBehaviour:
   - BULGARIA HAS FALLEN
   - GOOP
   - YOU ARE MOLE
+  level0scene: level 0 Tutorial
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
