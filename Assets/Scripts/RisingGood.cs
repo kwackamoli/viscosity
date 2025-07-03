@@ -16,7 +16,7 @@ public class RisingGood : MonoBehaviour
 
     IEnumerator MoveGood()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(0);
         while (true)
         {
             yield return null;
