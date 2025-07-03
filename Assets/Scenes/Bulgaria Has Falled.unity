@@ -583,7 +583,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1993922039}
   - component: {fileID: 1993922038}
-  - component: {fileID: 1993922040}
   - component: {fileID: 1993922041}
   m_Layer: 0
   m_Name: bulgaria has fallen
@@ -662,45 +661,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1993922040
-Animator:
-  serializedVersion: 7
+--- !u!114 &1993922041
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993922037}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7cd7149f583ddbc4f8e97e045e3cd54d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!320 &1993922041
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993922037}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: a0c4f72644f6a9640953cf023773d7bf, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings: []
-  m_ExposedReferences:
-    m_References: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fe6632722d1e24db81add125017d6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 1993922038}
+  awesomeText: {fileID: 10186012}
+  introImages:
+  - {fileID: 21300000, guid: 87192b20f92a02b4882c1bdca26660cc, type: 3}
+  - {fileID: 21300000, guid: a55ad7fbd4abe294d9f10ec31ea9bf12, type: 3}
+  - {fileID: 21300000, guid: aee3360a837658d43bb4f00964b5552c, type: 3}
+  introText:
+  - BULGARIA HAS FALLEN
+  - GOOP
+  - YOU ARE MOLE
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
