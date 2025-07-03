@@ -31,9 +31,10 @@ public class MoleController : MonoBehaviour
     [SerializeField]
     private BoxCollider2D groundTrigger;
 
-    private bool isGrounded;
+    [SerializeField]
+    private SpriteRenderer moleSprite;
 
-    private float gravity = -9.81f;
+    private bool isGrounded;
 
     private bool isSlippery;
 
@@ -48,6 +49,15 @@ public class MoleController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!isFacingLeft)
+        {
+            moleSprite.flipX = false;
+        }
+        else
+        {
+            moleSprite.flipX= true;
+        }
+
         if (!isSlippery)
         { 
             movementForce = 0;
