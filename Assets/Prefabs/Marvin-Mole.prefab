@@ -296,6 +296,6 @@ MonoBehaviour:
   jumpForce: 10
   marvinMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   groundTrigger: {fileID: 0}
   moleSprite: {fileID: 4845939241394249214}
