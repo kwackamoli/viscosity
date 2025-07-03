@@ -31,6 +31,9 @@ public class MoleController : MonoBehaviour
     [SerializeField]
     private BoxCollider2D groundTrigger;
 
+    [SerializeField]
+    private SpriteRenderer Spriteremder;
+
     private bool isGrounded;
 
     private float gravity = -9.81f;
@@ -48,6 +51,15 @@ public class MoleController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isFacingLeft)
+        {
+            Spriteremder.flipX = true;
+        }
+        else
+        {
+            Spriteremder.flipX = false;
+        }
+
         if (!isSlippery)
         { 
             movementForce = 0;
@@ -81,7 +93,12 @@ public class MoleController : MonoBehaviour
         {
             isGrounded = true;
         }
-        
+
+        if (collision.gameObject.CompareTag("Respawn"))
+        {
+            killMole();
+        }
+
         if (collision.gameObject.CompareTag("Slippery-Ground"))
         {
             isSlippery = true;
@@ -109,5 +126,10 @@ public class MoleController : MonoBehaviour
         {
             isSlippery = false;
         }
+    }
+
+    private void killMole()
+    {
+
     }
 }

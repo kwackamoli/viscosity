@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 5705862906468275819}
   m_Layer: 0
   m_Name: Marvin-Mole
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -295,3 +295,4 @@ MonoBehaviour:
   slideSpeed: 5
   jumpForce: 10
   groundTrigger: {fileID: 0}
+  Spriteremder: {fileID: 4845939241394249214}
