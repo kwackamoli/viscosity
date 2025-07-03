@@ -93,7 +93,12 @@ public class MoleController : MonoBehaviour
         {
             isGrounded = true;
         }
-        
+
+        if (collision.gameObject.CompareTag("Respawn"))
+        {
+            killMole();
+        }
+
         if (collision.gameObject.CompareTag("Slippery-Ground"))
         {
             isSlippery = true;
@@ -121,5 +126,10 @@ public class MoleController : MonoBehaviour
         {
             isSlippery = false;
         }
+    }
+
+    private void killMole()
+    {
+
     }
 }
