@@ -1,1 +1,6 @@
 #56992b this is the main green for the rising goop
+#20BB4F main green for all goop thats not rising
+#1C9441 green for shadowing and text box highlighting
+#008712 green for when buttons are clicked
+#39F8E5 blue goop 
+#89D1EA blue goop shadowing
