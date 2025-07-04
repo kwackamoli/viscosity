@@ -15,6 +15,9 @@ public class MoleController : MonoBehaviour
     private KeyCode jumpKey2 = KeyCode.Space;
 
     [SerializeField]
+    private Animator animator;
+
+    [SerializeField]
     private Rigidbody2D rigidbody;
 
     private float movementForce = 0;
@@ -83,7 +86,14 @@ public class MoleController : MonoBehaviour
         }
 
         rigidbody.linearVelocity = new Vector2(movementForce,rigidbody.linearVelocityY);
-
+        if (rigidbody.linearVelocity.x !=0)
+        {
+            animator.SetTrigger("Walk");
+        }
+        else
+        {
+            animator.SetTrigger("Idle");
+        }
         if (Input.GetKeyDown(jumpKey1) && isGrounded || Input.GetKeyDown(jumpKey2)  && isGrounded) 
         {
             rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocityX, jumpForce);
@@ -114,6 +124,8 @@ public class MoleController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Slippery-Ground"))
         {
             isGrounded = true;
+            animator.SetBool
+                ("Jump", false);
         }
 
         if (collision.gameObject.CompareTag("Respawn"))
@@ -143,6 +155,9 @@ public class MoleController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Slippery-Ground"))
         {
             isGrounded = false;
+            animator.SetBool
+                ("Jump", true);
+
         }
 
         if (collision.gameObject.CompareTag("Slippery-Ground"))
