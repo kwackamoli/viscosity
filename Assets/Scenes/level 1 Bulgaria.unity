@@ -922,6 +922,10 @@ PrefabInstance:
       value: Borders
       objectReference: {fileID: 0}
     - target: {fileID: 6057986862267150474, guid: 734f1d69635c727428d0ca87a572479f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057986862267150474, guid: 734f1d69635c727428d0ca87a572479f, type: 3}
       propertyPath: m_LocalScale.y
       value: 4.05
       objectReference: {fileID: 0}
@@ -964,6 +968,14 @@ PrefabInstance:
     - target: {fileID: 6057986862267150474, guid: 734f1d69635c727428d0ca87a572479f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6091127663128218797, guid: 734f1d69635c727428d0ca87a572479f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7003665854519862286, guid: 734f1d69635c727428d0ca87a572479f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2541,7 +2553,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5959816973821335528, guid: 892b3065e94b96d428b72dac36cc52b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.07
+      value: 6.99
       objectReference: {fileID: 0}
     - target: {fileID: 5959816973821335528, guid: 892b3065e94b96d428b72dac36cc52b9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4189,3 +4201,4 @@ SceneRoots:
   - {fileID: 389028768}
   - {fileID: 395363263}
   - {fileID: 1613695704}
+  - {fileID: 1275256445}
