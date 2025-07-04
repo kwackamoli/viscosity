@@ -860,7 +860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 996030856}
-  - component: {fileID: 996030855}
+  - component: {fileID: 996030857}
   m_Layer: 0
   m_Name: ambivalent-vast-sky-song
   m_TagString: Untagged
@@ -868,8 +868,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &1115565410
-SpriteRenderer:
+--- !u!4 &996030856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996030854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.78242, y: 8.81748, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &996030857
+AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -881,9 +896,9 @@ SpriteRenderer:
   m_audioClip: {fileID: 8300000, guid: 36da22ceb8125444da06acded4dd7e96, type: 3}
   m_Resource: {fileID: 8300000, guid: 36da22ceb8125444da06acded4dd7e96, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -965,21 +980,6 @@ SpriteRenderer:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &996030856
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996030854}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.78242, y: 8.81748, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1141731168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,10 +2235,20 @@ SceneRoots:
   - {fileID: 1636348365}
   - {fileID: 1886602356}
   - {fileID: 1809812569}
-<<<<<<< HEAD
-  - {fileID: 1115565411}
-  - {fileID: 1484791509}
-=======
   - {fileID: 1790338950}
   - {fileID: 996030856}
->>>>>>> 2400b96a9d55763cce854fcf03b7eb2e0d4ab90e
+  - {fileID: 1501387036}
+  - {fileID: 53252084}
+  - {fileID: 1227147716}
+  - {fileID: 1376264465}
+  - {fileID: 1547288532}
+  - {fileID: 1962607317}
+  - {fileID: 1410198634}
+  - {fileID: 613509321}
+  - {fileID: 519580463}
+  - {fileID: 1611013262}
+  - {fileID: 357632016}
+  - {fileID: 298716979}
+  - {fileID: 108944127}
+  - {fileID: 666828531}
+  - {fileID: 1520948199}
