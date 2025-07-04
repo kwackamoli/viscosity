@@ -94,7 +94,7 @@ public class MoleController : MonoBehaviour
             rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocityX, jumpForce);
         }
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, isFacingLeft ? Vector2.left: -Vector2.left, 2, ~marvinMask);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, isFacingLeft ? Vector2.left: -Vector2.left, 0.8f, ~marvinMask);
 
         if (hit)
         {
