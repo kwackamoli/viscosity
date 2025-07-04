@@ -861,7 +861,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 3232259467624863889, guid: 55b37db783ae3c440a7d78887376952d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3598,6 +3598,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_Size.x
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_Size.y
+      value: 8.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6522984242888449700, guid: 2f1b93334c180784a84d7b272da19326, type: 3}
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5079594324803735773, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.48
@@ -5397,6 +5413,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_Size.x
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_Size.y
+      value: 8.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6522984242888449700, guid: 2f1b93334c180784a84d7b272da19326, type: 3}
+    - target: {fileID: 480877579244193836, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5079594324803735773, guid: a4fb375f79a6b714ca61e4b2af3d8dd6, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.32726657
