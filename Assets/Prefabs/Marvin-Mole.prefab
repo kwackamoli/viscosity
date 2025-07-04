@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2781965993419522948}
   - component: {fileID: 4845939241394249214}
+  - component: {fileID: 7134866824271107559}
   m_Layer: 3
   m_Name: Marvin-Sprite
   m_TagString: Untagged
@@ -87,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4238436289057073666
+--- !u!95 &7134866824271107559
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -312,13 +313,13 @@ MonoBehaviour:
   walkRight: 100
   jumpKey1: 119
   jumpKey2: 32
-  animator: {fileID: 4238436289057073666}
+  animator: {fileID: 7134866824271107559}
   rigidbody: {fileID: 2395391814164478139}
   movementSpeed: 7
   slideSpeed: 5
   jumpForce: 10
   marvinMask:
     serializedVersion: 2
-    m_Bits: 0
-  groundTrigger: {fileID: 0}
+    m_Bits: 8
+  groundTrigger: {fileID: 277692648936672082}
   moleSprite: {fileID: 4845939241394249214}

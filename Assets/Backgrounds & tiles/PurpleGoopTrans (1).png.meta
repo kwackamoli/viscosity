@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f85452fe766f5e949bcf075c81c59e3a
+guid: 2f1b93334c180784a84d7b272da19326
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6516144894912294035
-    second: PurpleGoopTrans_0
+      213: 6522984242888449700
+    second: PurpleGoopTrans (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PurpleGoopTrans_0
+      name: PurpleGoopTrans (1)_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
+        x: 615
+        y: 62
         width: 311
-        height: 806
+        height: 817
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39ce836024ffd6a50800000000000000
-      internalID: 6516144894912294035
+      spriteID: 4ae16d0db9b468a50800000000000000
+      internalID: 6522984242888449700
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PurpleGoopTrans_0: 6516144894912294035
+      PurpleGoopTrans (1)_0: 6522984242888449700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
