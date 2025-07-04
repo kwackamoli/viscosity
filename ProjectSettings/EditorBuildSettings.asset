@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/level 1 Bulgaria.unity
     guid: 91abbab120562904ba031362548fd449
   - enabled: 1
+    path: Assets/Scenes/level 2 Sky.unity
+    guid: 4d97597edd47b2f43ae598e94f506b62
+  - enabled: 1
+    path: Assets/Scenes/level 3 night time.unity
+    guid: 86844fc847a334649b45b764d045399c
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
