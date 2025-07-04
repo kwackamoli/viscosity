@@ -6,11 +6,13 @@ TagManager:
   tags:
   - Ground
   - Slippery-Ground
+  - bastard wall
+  - Sticky-Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - THE GOAT
   - Water
   - UI
   - 

@@ -29,6 +29,9 @@ public class MoleController : MonoBehaviour
     private float jumpForce = 10f;
 
     [SerializeField]
+    LayerMask marvinMask; 
+
+    [SerializeField]
     private BoxCollider2D groundTrigger;
     
     private bool isGrounded;
@@ -90,6 +93,20 @@ public class MoleController : MonoBehaviour
         {
             rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocityX, jumpForce);
         }
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, isFacingLeft ? Vector2.left: -Vector2.left, 0.8f, ~marvinMask);
+
+        if (hit)
+        {
+            if (hit.transform.CompareTag("Sticky-Wall"))
+            {
+                isSticky = true;
+            }
+        }
+        else
+        {
+            isSticky = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -104,10 +121,6 @@ public class MoleController : MonoBehaviour
             killMole();
         }
 
-        if (collision.gameObject.CompareTag("Sticky-Wall"))
-        {
-            isSticky = true;
-        }
 
         if (collision.gameObject.CompareTag("Slippery-Ground"))
         {
@@ -137,10 +150,6 @@ public class MoleController : MonoBehaviour
             isSlippery = false;
         }
 
-        if (collision.gameObject.CompareTag("Sticky-Wall"))
-        {
-            isSticky = false;
-        }
     }
 
     private void killMole()

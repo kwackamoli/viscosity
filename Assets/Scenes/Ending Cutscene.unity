@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 0}
+  m_AnchoredPosition: {x: 840, y: 350}
   m_SizeDelta: {x: 1429.6461, y: 145.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &10186012
@@ -203,8 +203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 128
-  m_fontSizeBase: 128
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 635.6459, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -676,17 +676,27 @@ MonoBehaviour:
   backgroundImage: {fileID: 1993922038}
   awesomeText: {fileID: 10186012}
   introImages:
-  - {fileID: 21300000, guid: 87192b20f92a02b4882c1bdca26660cc, type: 3}
-  - {fileID: 21300000, guid: a55ad7fbd4abe294d9f10ec31ea9bf12, type: 3}
-  - {fileID: 21300000, guid: aee3360a837658d43bb4f00964b5552c, type: 3}
+  - {fileID: 104079729060674647, guid: 7ad6ad853e17b5842b3e4915960f188a, type: 3}
+  - {fileID: -154269249030348198, guid: a3a7fca2d7d183c46a3c6f7ed3fc38ce, type: 3}
+  - {fileID: -7465307106225235979, guid: a45ffebce6ab87f408917ed6f5b44c96, type: 3}
+  - {fileID: -7083523246791027351, guid: 3c5bf2eec094c8a4486be11b61d9c58c, type: 3}
+  - {fileID: -6047493898223882553, guid: af20e715e26cc33439c95c9ca7742c2e, type: 3}
+  - {fileID: 5787426498330204712, guid: 9ca9c6bd4ccad064787381a980e3d529, type: 3}
+  - {fileID: 6151968071869121696, guid: 6bce54f141c64504480738ebd28e2f6b, type: 3}
+  - {fileID: 4372608869806622657, guid: 0ad8c8d6c6cb2034f9973ab787fcc081, type: 3}
   introText:
-  - BULGARIA HAS FALLEN
-  - GOOP
-  - YOU ARE MOLE
+  - There it is! There's the floating island!
+  - 
+  - 
+  - 
+  - It was me Marvin! I made the deal with the goop to consume Bulgaria!
+  - 
+  - Aw cmon Marvin, you gotta understand. it was for good reasons like-
+  - 
   level0scene: level 0 Tutorial
-  fadeinTime: 0.25
-  waitTime: 2
-  fadeoutTime: 0.2
+  fadeinTime: 10
+  waitTime: 4
+  fadeoutTime: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

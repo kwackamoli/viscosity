@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2781965993419522948}
   - component: {fileID: 4845939241394249214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Marvin-Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123958295151358170}
   - component: {fileID: 277692648936672082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground-Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,9 +177,9 @@ GameObject:
   - component: {fileID: 2395391814164478139}
   - component: {fileID: 1668444312261639340}
   - component: {fileID: 5705862906468275819}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Marvin-Mole
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -294,5 +294,8 @@ MonoBehaviour:
   movementSpeed: 7
   slideSpeed: 5
   jumpForce: 10
+  marvinMask:
+    serializedVersion: 2
+    m_Bits: 0
   groundTrigger: {fileID: 0}
   moleSprite: {fileID: 4845939241394249214}
