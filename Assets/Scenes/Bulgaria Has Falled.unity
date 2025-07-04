@@ -684,6 +684,9 @@ MonoBehaviour:
   - GOOP
   - YOU ARE MOLE
   level0scene: level 0 Tutorial
+  fadeinTime: 0.25
+  waitTime: 2
+  fadeoutTime: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
